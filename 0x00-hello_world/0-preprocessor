@@ -1,2 +1,2 @@
 #!/bin/bash
-This is my first C trial!
+gcc -E $CFILE -o c
