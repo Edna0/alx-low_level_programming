@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -9,7 +8,7 @@
   * the cmp function does not return 0
   * Return: index of the first element for which
   * the cmp function does not return 0,
-  * or -1 if no match is found i or size is negative
+  * or -1 if no match is found or size is negative
   */
 
 int int_index(int *array, int size, int (*cmp)(int))
